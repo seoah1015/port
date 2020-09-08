@@ -1,0 +1,393 @@
+body{background: -o-linear-gradient();}
+
+/*font*/
+.popp {font-family: Poppins;}
+.canvas {font-family: MADE Canvas;}
+.ag {font-family: Againts;}
+.devb{font-family: Devil Breeze;}
+/* .porters{font-family: 'Porter Sans Block';} */
+
+/*메인*/
+#main{background-color: #FFFF00;
+    margin:60px 50px 0 50px;
+    height: 975px;
+}
+#main .box1{
+    position: absolute;
+    display:block;
+    width: 508px;
+    height: 525px;
+    left: 44px;
+    top: -76px;    
+    font-weight: 250;
+    font-size: 350px;
+    line-height: 525px;   
+    letter-spacing: -0.075em;}
+#main .box1_sub{
+    display: inline-block;
+    position: absolute;
+    width: 423px;
+    height: 285px;
+    left: 591px;
+    top: 49px;    
+    font-size: 82px;
+    line-height: 95px;
+    letter-spacing: -0.04em;}
+#main .box2{
+    position: absolute;
+    display: inline;
+    width: 1556px;
+    height: 350px;
+    left: 44px;
+    top: 379px;
+    font-weight: 600;
+    font-size: 350px;
+    line-height: 350px;
+    letter-spacing: -0.05em;
+}
+#main .box3{
+    position: absolute;
+    display: inline;
+    width: 1330px;
+    height: 540px;
+    left: 24px;
+    top: 548px;
+    font-weight: 300;
+    font-size: 360px;
+    line-height: 540px;
+    letter-spacing: -0.09em;
+}
+
+#first {background:#ffff00;
+    margin:0 50px 0 50px;
+    height: 3056px;}
+/*스킬*/
+#first .skill > .box1{
+    position: absolute;
+    display: block;
+    width: 686px;
+    height: 453px;
+    left: 58px;
+    top: 944px;
+    font-size: 360px;
+    line-height: 453px;
+    font-weight: 200;
+}
+#first .skill > .animation{
+    position: absolute;
+    display: block;
+    width: 2147px;
+    height: 270px;
+    left: 44px;
+    top: 1345px;
+    font-size: 280px;
+    line-height: 270px;
+    letter-spacing: -0.05em;
+}
+#first .skill > .animation > .line1{
+    letter-spacing: -0.09em;
+}
+#first .skill > .animation > .line2{
+    margin-top:-40px;
+}
+#first .skill > .banner{
+    position: absolute;
+    width: 1555px;
+    height: 50px;
+    left: 50px;
+    top: 2240px;
+    font-size: 40px;
+    line-height: 48px;
+    background:#FFFF00;
+}
+/*자기소개*/
+#intro{
+    position: relative;
+    top:1370px}
+#intro .wrap{
+    left: -50px;
+    position: absolute;
+    display: inline;
+    overflow: hidden;
+}
+#intro .wrap .line1, #intro .wrap .line2{
+    font-size: 360px;
+    line-height: 450px;
+}
+#intro .bg_txt{
+    left: -55px;
+    top:240px;
+    position: absolute;
+    width: 1694px;
+    text-align: center;
+    font-size: 380px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #5C5C5C;
+}
+#intro .img{
+    display: block;
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left:580px;
+    background: url(../img/Intro_photo.jpg) center center no-repeat;
+}
+/*웹사이트*/
+.web{
+    padding-top:150px;
+    position: relative;
+    top:2200px;
+    font-size: 270px;
+    line-height: 230px;
+    display: block;
+}
+.web .box1{}
+.web .box2{}
+.web .box3{}
+
+/*웹사이트 가로*/
+#second .standard {}
+#second .standard h1{}
+
+
+
+
+
+/*애니메이션*/
+#third {
+    margin:0 50px 0 50px;
+    height: 3760px;
+    background:#FFFF00;
+}
+#third .animation{
+    position: relative;
+}
+#third .animation h1{
+    display: inline;
+    font-size: 240px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+}
+#third .animation .bg_txt{
+    position: absolute;
+    width: 1609px;
+    top: 0;
+    text-align: right;
+    font-size: 240px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #5C5C5C;
+}
+#third .animation .line1, #third .animation .line2{
+    position: relative;
+    width: 1594px;
+    height: 280px;
+    display: flex;
+}
+#third .animation .line2{
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+}
+
+#third .animation .line1 .box1{
+    width: 33.33%;
+    height: 100%;
+    border-top: 1px solid #000000;
+    box-sizing: border-box;
+    padding:15px 15px 10px 5px;
+}
+#third .animation .line1 .box a{}
+#third .animation .line1 .box2{
+    width: 33.33%;
+    height: 100%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    box-sizing: border-box;
+    padding:15px 15px 10px 5px;
+}
+#third .animation .line1 .box3{
+    width: 33.33%;
+    height: 100%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    box-sizing: border-box;
+    padding:15px 15px 10px 5px;
+}
+#third .animation .line2 .box4{
+    width: 33.33%;
+    height: 100%;
+    border-top: 1px solid #000000;
+    box-sizing: border-box;
+    padding:15px 15px 10px 5px;
+}
+#third .animation .line2 .box5{
+    width: 33.33%;
+    height: 100%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    box-sizing: border-box;
+    padding:15px 15px 10px 5px;
+}
+#third .animation .line2 .box6{    
+    width: 33.33%;
+    height: 100%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    box-sizing: border-box;
+    padding:15px 15px 10px 5px;}
+
+/*자바스크립트*/
+#third .javascript{
+    position: relative;
+    padding-top: 200px;
+}
+#third .javascript .wrap{
+    position: relative;
+}
+#third .javascript h1{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #5C5C5C;
+    font-weight: normal;
+    font-size:200px;
+    line-height: 270px;
+    letter-spacing: -0.07em;
+}
+#third .javascript h2{
+    font-size: 150px;
+    line-height: 173px;
+    letter-spacing: -0.07em;
+    display:inline-block;
+    width: 1450px;
+    text-align: center;
+}
+#third .javascript span{
+    width: 1450px;
+    height: 2px;
+    display:inline; 
+    border-bottom:2px;
+} /*? 왜안나오는걸까요*/
+
+#third .moto{
+    position: relative;
+    display: block;
+    padding-top: 150px;
+    font-size: 280px;
+    line-height: 220px;
+    letter-spacing: -0.05em;
+}
+#third .moto > div:nth-child(6), #third .moto > div:nth-child(7){
+    width: 880px;
+}
+#third .moto .ban_yel{
+    position: absolute;
+    width: 685px;
+    height: 50px;
+    left: 175px;
+    top: 442px;
+    font-size: 40px;
+    line-height: 48px;
+    background:#FFFF00;
+}
+
+#third .moto .ban_bk{
+    position: absolute;
+    width: 670px;
+    height: 45px;
+    font-size: 50px;
+    line-height: 40px;
+    transform: rotate(-38deg);
+    background:#000000;
+    color:#ffff00;
+}
+
+/*footer*/
+
+#contact{
+    background:#000000;
+    color:#FFFF00;
+    padding:60px 50px 0 50px;
+}
+#contact .submit{
+    text-align:center;
+    position: relative;
+}
+#contact .submit > p{
+    padding: 50px 0 50px 0;
+    font-size: 32pt;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: -0.01em;
+}
+#contact .submit .email{
+    width: 725px;
+    height: 80px;
+    border:2px solid #ffff00;
+    background: #000000;
+    color:#ffff00;
+    font-size:20px;
+    margin: 0 400px 20px 400px;
+}
+#contact .submit .message{
+    width: 725px;
+    height: 200px;
+    border:2px solid #ffff00;
+    background: #000000;
+    color:#ffff00;
+    font-size:20px;
+    margin: 0 400px 30px 400px;
+
+}
+#contact .submit button{
+    width: 140px;
+    height: 65px;
+    border-radius: 50%;
+    background: #000000;
+    border:2px solid #ffff00;
+    color:#ffff00;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.contact_info{}
+.contact_info .info{
+    clear:both;
+}
+.contact_info .info .wrap1{
+    float: left;
+}
+.contact_info .info .wrap1 .top{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 60px;
+}
+.contact_info .info .wrap1 .low{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+.contact_info .info .PORT{
+    float: left;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 100px;    
+    letter-spacing: -0.05em;
+}
+.contact_info .info .wrap2{
+    
+}
+.contact_info .info .wrap2 .top{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+.contact_info .info .wrap2 .low{
+    display: flex;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 65px;
+    letter-spacing: -0.09em;
+
+}
+
