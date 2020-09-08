@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>SEOAH Portfolio</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style4_edit.css">
+    
+    <!-- webfonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div id="contents">
+        <section id="section1">
+            <div>
+                <span class="splice">THE</span>
+                <span class="tx">
+                    <strong>WEB</strong>
+                    <strong>PUBLISHER</strong>
+                    <strong>CODING</strong>
+                </span>
+            </div>
+            <div><span class="splice">PORT</span></div>
+            <div><span class="splice">PROJECT</span></div>
+        </section>
+        <!-- //section1 -->
+        
+        <section id="section2">
+            <h2><span class="splice">About</span></h2>
+            <div class="container">
+                <p>저는 웹디자인을 배우는 과정에서 처음으로 코딩을 접하게 되었습니다. 저에게 텍스트는 인쇄되어 나오고, 오탈자가 없어야하는 딱딱한 존재였는데, 웹 상에서는 그렇지 않았던게 큰 매력으로 다가왔습니다. 태그마다 가진 정보의 차이를 알고, 때에 맞는 요소를 사용해서 마크업을 해내며 큰 성취감을 느꼈습니다. </p>
+                <p>배워보지도 못한 영역이라 처음엔 생소했습니다. 코딩을 더 알아가고자 수업을 듣고, 부족하거나 더 알고싶은 개념들은 유튜브를 찾아보며 차곡차곡 깃북과 깃허브에 데이터를 쌓았습니다. 그렇게 배우다 보니 코딩의 매력에 빠져 본격적으로 퍼블리싱에 도전하게 되었습니다.</p>
+                <p>포트폴리오 제작 시 차별화를 주고 싶어 마우스 휠 동작을 넣고 싶었습니다. 그러나 수업시간에 배우지 않은 내용이어서 구현을 할 수 없었습니다. 포기하지 않고 검색엔진을 활용해 검색, 관련 책을 구매해 공부했습니다. 혼자 해결하기 힘들 경우에 강사님께 수업이 끝난 후 물어봤습니다.</p>
+            </div>
+            
+            
+            <div class="count">
+                <ul>
+                    <li>html/css <span>90</span>%</li>
+                    <li>jQuery <span>90</span>%</li>
+                    <li>javascript <span>90</span>%</li>
+                    <li>Ps,Ai,Id <span>90</span>%
+                        <div class="banner">
+                            <span> I can do various things related to design </span>
+                            <span class="ico"></span>
+                            <span> I can do various things related to design </span>
+                            <span class="ico"></span>
+                            <span> I can do various things related to design </span>
+                            <span class="ico"></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section> 
+        <!-- //section2 -->
+        <section id="section3">
+            <h2><span>S</span>ite</h2>
+            <div class="container">
+                <p>홈페이지의 특성에 맞게 section을 나눠서 그 안에 구조적인 내용을 채워넣는 것이 마치 탄탄한 집을 짓는 느낌이였습니다. </p>
+                <p>배워보지도 못한 영역이라 처음엔 생소했습니다. 코딩을 더 알아가고자 수업을 듣고, 부족하거나 더 알고싶은 개념들은 유튜브를 찾아보며 차곡차곡 깃북과 깃허브에 데이터를 쌓았습니다. 그렇게 배우다 보니 코딩의 매력에 빠져 본격적으로 퍼블리싱에 도전하게 되었습니다.</p>
+                <p>포트폴리오 제작 시 차별화를 주고 싶어 마우스 휠 동작을 넣고 싶었습니다. 그러나 수업시간에 배우지 않은 내용이어서 구현을 할 수 없었습니다. 포기하지 않고 검색엔진을 활용해 검색, 관련 책을 구매해 공부했습니다. 혼자 해결하기 힘들 경우에 강사님께 수업이 끝난 후 물어봤습니다.</p>
+            </div>
+            <ul>
+                <li>SITES</li>
+                <li>I WORKED
+                    <div class="banner">
+                        <span> I can do various things related to design</span><span> I can do various things related to design</span><span> I can do various things related to design</span>
+                        <img></img>
+                    </div>
+                </li>
+                <li>ON</li>
+            </ul>
+
+        </section>
+        <!-- //section3 -->
+        <section id="section4">
+
+        </section>
+        <!-- //section4 -->
+        <section id="section5">
+
+        </section>
+        <!-- //section5 -->
+        <section id="section6">
+
+        </section>
+        <!-- //section6 -->
+    </div>
+    <!-- //contents -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script>
+        
+        
+        $(".splice").each(function () {
+            let txt = $(this).text();
+            let split = txt.split("").join("</span><span aria-hidden='true'>");
+            split = "<span aria-hidden='true'>" + split + "</span>";
+            $(this).html(split).attr("aria-label", txt);
+        });
+                
+        
+        setTimeout(function(){
+            //$("#section1").hide();
+            //document.getElementById("section1").style.display = "none";
+            //$("#section1").animate({ opacity:0 },1000);
+            
+            gsap.to("#section1 > div:nth-child(1) span",{rotation: 0, y:0, ease: "power3.out", duration:1, stagger:0.2});
+            gsap.to("#section1 > div:nth-child(2) span",{rotation: 0, y:0, ease: "power3.out", duration:1, stagger:0.2, delay: 0.5});
+            gsap.to("#section1 > div:nth-child(3) span",{rotation: 0, y:0, ease: "power3.out", duration:1, stagger:0.2, delay: 1});
+            gsap.to("#section1 > div:nth-child(1) .tx > strong:nth-child(1)",{rotation: 0, y:0, ease: "power3.out", duration:1, stagger:0.2, delay:1.5});
+            gsap.to("#section1 > div:nth-child(1) .tx > strong:nth-child(2)",{rotation: 0, y:0, ease: "power3.out", duration:1, stagger:0.2, delay:2});
+            gsap.to("#section1 > div:nth-child(1) .tx > strong:nth-child(3)",{rotation: 0, y:0, ease: "power3.out", duration:1, stagger:0.2, delay:2.5});
+        },3000)
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
