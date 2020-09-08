@@ -1,0 +1,139 @@
+@font-face { 
+	font-family: 'Chosunilbo_myungjo'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff'); 
+	font-weight: normal; font-style: normal; 
+}
+
+@font-face { 
+    font-family: 'CanvasBlack'; 
+    src: url('../fonts/CanvasBlack.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'CanvasLight'; 
+    src: url('../fonts/CanvasLight.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'CanvasRegular'; 
+    src: url('../fonts/CanvasRegular.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+
+/* layout */
+body {
+    background: #FFFF00;
+}
+#contents {}
+#section1 {padding: 3vw; box-sizing: border-box;}
+#section2 {padding: 0 3vw 0 3vw; box-sizing: border-box;}
+#section3 {height: 86vh;}
+#section4 {}
+#section5 {}
+#section6 {}
+
+
+
+/* #sectiont1 */
+#section1 > div {
+    font-size: 16vw;
+    line-height: 15vw;
+    font-family: "Poppins";
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#section1 > div span {
+    transform: translateY(300px);
+    display: inline-block;
+}
+#section1 > div .tx {
+    display: inline-block;
+}
+#section1 > div .tx strong {
+    display: block;
+    width: 400px;
+}
+#section1 > div span strong {
+    font-size: 4.2vw;
+    line-height: 1;
+    display: inline-block;
+    font-weight: 100;
+    padding-left: 2vw;
+    font-family: "Made canvas";
+}
+#section1 > div:nth-child(1){
+    font-weight: 100; 
+    text-transform: uppercase;
+}
+#section1 > div:nth-child(2){
+    font-family: 'Monoton', cursive;
+}
+#section1 > div:nth-child(3){
+    font-weight: 800;
+    letter-spacing: -1vw;
+}
+
+
+/* #section2 */
+#section2 {
+    padding: 30vh 3vw;
+}
+#section2 h2 {
+    font-size: 16vw;
+    line-height: 15vw;
+    font-family: "Poppins";
+    font-weight: 100;
+    padding-bottom: 5vw;
+}
+#section2 h2 span {
+    font-weight: 100;
+    font-family: 'Monoton', cursive;
+    font-family: "Poppins";
+}
+#section2 p {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 24px;
+    line-height: 1.6;
+    padding-bottom: 15px;
+}
+
+#section2 .count {
+    padding-top: 5vw;
+}
+#section2 .count li {
+    font-family: 'CanvasRegular'; 
+    font-size: 16vw;
+    line-height: 15vw;
+}
+
+/* #section3 */
+#section3 {
+    padding: 10vh 3vw;
+}
+#section3 h2 {
+    font-size: 16vw;
+    line-height: 15vw;
+    font-family: "Poppins";
+    font-weight: 100;
+    padding-bottom: 5vw;
+}
+#section3 p {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 24px;
+    line-height: 1.6;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
